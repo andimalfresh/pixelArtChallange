@@ -4,7 +4,7 @@
     background-color: white;
 }
 .gametop {
-    width: ;
+    width: auto;
     height: auto;
     background-color: orangered;
     display: flex;
@@ -37,7 +37,7 @@ ul li {
     display: flex;
     flex-direction: row;
 }
-.color1 {
+.colorBlock {
     border-style: dashed;
     border-width: 1px;
     border-color: black;
@@ -45,25 +45,13 @@ ul li {
     width: 100px;
     height: 100px;
     padding: 25px;
+}
+.bgYellow {
     background-color: Yellow;
 }
-.color2 {
-    border-style: dashed;
-    border-width: 1px;
-    border-color: black;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    padding: 25px;
+.bgPurple {
     background-color: purple;
 }
-.color3 {
-    border-style: dashed;
-    border-width: 1px;
-    border-color: black;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    padding: 25px;
+.bgBrown {
     background-color: brown;
 }

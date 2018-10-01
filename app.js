@@ -24,7 +24,7 @@ function makeBox() {
 }
 makeBox()
 
-var yellowClick = document.querySelector('.color1')
+var yellowClick = document.querySelector('.bgYellow')
 yellowClick.addEventListener('click', function (event) {
     console.log('Test Fired - Yellow')
     var mouseEvent = document.querySelector('.gameboard')
@@ -33,7 +33,7 @@ yellowClick.addEventListener('click', function (event) {
     })
 })
 
-var purpleClick = document.querySelector('.color2')
+var purpleClick = document.querySelector('.bgPurple')
 purpleClick.addEventListener('click', function (event) {
     console.log('Test Fired - Purple')
     var mouseEvent = document.querySelector('.gameboard')
@@ -42,7 +42,7 @@ purpleClick.addEventListener('click', function (event) {
     })
 })
 
-var brownClick = document.querySelector('.color3')
+var brownClick = document.querySelector('.bgBrown')
 brownClick.addEventListener('click', function (event) {
     console.log('Test Fired - brown')
     var mouseEvent = document.querySelector('.gameboard')
@@ -50,26 +50,3 @@ brownClick.addEventListener('click', function (event) {
         event.target.style.backgroundColor = 'brown'
     })
 })
-
-
-
-
-// This Worked before
-
-// var mouseEvent = document.querySelector('.gameboard')
-// mouseEvent.addEventListener('mouseover', function (event) {
-//     event.target.style.backgroundColor = 'white'
-// })
-
-// end
-
-
-
-
-// var colorChange = document.querySelector('color1')
-    // colorChange.addEventListener('click', function (event) {       
-    // })
-//     var yellowClick = document.querySelector('reset')
-// yellowClick.addEventListener('click', function (event) {
-//     event.target.style.backgroundColor = 'yellow'
-// })
